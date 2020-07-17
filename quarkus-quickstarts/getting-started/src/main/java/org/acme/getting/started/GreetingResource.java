@@ -24,6 +24,6 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hallo liebes Twitch Publikum! Ihr seht, ich bin ein Coding noob!";
+        return "Hallo liebes Twitch Publikum! Ihr seht, ich bin ein Coding noob! Finally";
     }
 }
