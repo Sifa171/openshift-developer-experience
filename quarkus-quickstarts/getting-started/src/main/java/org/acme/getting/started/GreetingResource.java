@@ -23,6 +23,13 @@ public class GreetingResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
+    @Path("/there")
+    public String there() {
+        return "Hello there";
+    }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         return "Hallo liebes Twitch Publikum! Ihr seht, ich bin ein Coding noob! Finally Finally!";
     }
